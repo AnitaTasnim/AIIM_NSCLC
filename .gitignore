@@ -1,0 +1,23 @@
+runs/*/*/cache/
+runs/_engine/
+runs/smoke/
+data/inputs/*.parquet
+data/inputs/*.csv
+data/inputs/gse68086/
+__pycache__/
+*.pyc
+
+# re-drawn figures
+figures/build/
+
+# stdout of local simulation workers
+runs_w*.out
+runs_pilot.out
+data/external/*.RData
+data/external/*.gz
+runs_e*.out
+runs/bagging/cache/
+runs/seeds/cache/
+runs/revision/*/cache/
+results/pathway/cache_E17/
+runs_queue*.out
